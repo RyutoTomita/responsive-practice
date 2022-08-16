@@ -8,16 +8,54 @@
   <title>Responsive</title>
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-  <h2 class="question--title">Q1 サイズ変更</h2>
-  <h2 class="question--title">Q2 色変更</h2>
-  <h2 class="question--title">Q3 margin値の変更</h2>
-  <h2 class="question--title">Q4 floatの解除</h2>
-  <h2 class="question--title">Q5 flexboxの入れ替え(逆順)</h2>
-  <h2 class="question--title">Q6 flexboxの入れ替え(指定)</h2>
-  <h2 class="question--title">Q7 要素の表示・非表示</h2>
+  <div class="wrapper">
+    <h2 class="question--title">Q1 サイズ変更</h2>
+      <div class="center red__box"></div>
+
+    <h2 class="question--title">Q2 色変更</h2>
+      <div class="center change__blue box"></div>
+
+    <h2 class="question--title">Q3 margin値の変更</h2>
+      <div class="clearfix">
+        <div class="center__box">
+          <div class="blue__box"></div>
+          <div class="green__box"></div>
+        </div>
+      </div>
+
+    <h2 class="question--title">Q4 floatの解除</h2>
+      <div class="clearfix">
+        <div class="centering__box">
+          <div class="float__red__box"></div>
+          <div class="float__blue__box"></div>
+        </div>
+      </div>
+
+    <h2 class="question--title">Q5 flexboxの入れ替え(逆順)</h2>
+      <div class="flex__box">
+        <div class="rev__red__box">A</div>
+        <div class="rev__blue__box">B</div>
+        <div class="rev__orange__box">C</div>
+      </div>
+
+    <h2 class="question--title">Q6 flexboxの入れ替え(指定)</h2>
+      <div class="flex__sort__box">
+        <div class="green__flex__box">A</div>
+        <div class="yellow__flex__box">B</div>
+        <div class="pink__flex__box">C</div>
+      </div>
+
+    <h2 class="question--title">Q7 要素の表示・非表示</h2>
+      <div class="flex__sort__box">
+        <div class="hidden__red__box"></div>
+        <div class="hidden__green__box"></div>
+        <div class="hidden__blue__box"></div>
+      </div>
+  </div>
 </body>
 
 </html>
